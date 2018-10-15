@@ -76,4 +76,35 @@
 	}
 	?>
 
+    <h1>THIS IS A TEST</h1>
+    <?php
+
+        //$result = mail("alexblavat@gmail.com", "Sent using wordpress mail function", "This is a test from localhost", null, null);
+        echo FALSE;
+        /**
+        //Create a new PHPMailer instance
+        $mail = new PHPMailer;
+        //Set who the message is to be sent from
+        $mail->setFrom('atlantic@coastal.com', 'Atlantic Coastal');
+        //Set an alternative reply-to address
+        $mail->addReplyTo('atlantic@coastal.com', 'Atlantic Coastal');
+        //Set who the message is to be sent to
+        $mail->addAddress('alexblavat@gmail.com', 'Oleksiy');
+        //Set the subject line
+        $mail->Subject = 'Let\'s talk.';
+        //Read an HTML message body from an external file, convert referenced images to embedded,
+        //convert HTML into a basic plain-text alternative body
+        $mail->msgHTML('<h1>Hi Chip,</h1><br><h3>I know you\'ve been talking shit about me with your little fartcopter friends. Why don\'t you sober up and fix BADS, for the last friggin time. Pay a lobbage, clean up your garbage. Also, for the record, I wanted to lay you off years ago, but Ben Jackson wouldn\'t budge.</h3><br><h4>Josh</h4>');
+        $mail->AltBody = 'Sometimes I wish life was a little more plain text.';
+        //Attach an image file
+
+        //send the message, check for errors
+        if (!$mail->send()) {
+            echo "Mailer Error: " . $mail->ErrorInfo;
+        } else {
+            echo "Message sent!";
+        }
+        **/
+    ?>
+
 </article><!-- #post-## -->
